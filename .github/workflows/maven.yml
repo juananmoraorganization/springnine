@@ -40,6 +40,7 @@ jobs:
         run: echo app deployed en dev
      
   deploypre:
+    if: ${{ github.ref == 'refs/heads/master' }}
     needs: deploydev
     runs-on: ubuntu-latest
     environment: preprod
@@ -48,6 +49,7 @@ jobs:
         run: echo app deployed en PRE
 
   deploypro:
+    if: ${{ github.ref == 'refs/heads/master' }}
     needs: deploypre
     runs-on: ubuntu-latest
     environment: prd
