@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {
-
+  public String password="";
   public static void main(String[] args) {
-    public String password="";
+    
     SpringApplication.run(Application.class, args);
   }
 }
