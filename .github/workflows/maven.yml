@@ -48,6 +48,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B clean package -Denforcer.fail=false --file pom.xml
+      - name: Submit results to Xray
+        uses: mikepenz/xray-action@v2.4.5
+        with:
+          username: ${{ secrets.client_id }}
+          password: ${{ secrets.client_secret }}
+          testFormat: "junit"
 
   deploydev:
     needs: build
@@ -74,12 +80,7 @@ jobs:
     steps:
       - name: Deploy PRO
         run: echo app deployed en PRO
-      - name: Submit results to Xray
-        uses: mikepenz/xray-action@v2.4.5
-        with:
-          username: ${{ secrets.client_id }}
-          password: ${{ secrets.client_secret }}
-          testFormat: "junit"
+
           testPaths: "**/surefire-reports/*.xml"
           projectKey: "JON"
  
