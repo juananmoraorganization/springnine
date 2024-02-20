@@ -56,11 +56,12 @@ jobs:
           testFormat: "junit"
           testPaths: "**/surefire-reports/*.xml"
           projectKey: "JON"
+          testPlanKey: "JON-2774"
 
   deploydev:
     needs: build
     runs-on: ubuntu-latest
-    environment: dev
+    environment: desarrollo
     steps:
       - name: Deploy Development
         run: echo app deployed en dev
@@ -69,7 +70,7 @@ jobs:
     if: ${{ github.ref == 'refs/heads/master' }}
     needs: deploydev
     runs-on: ubuntu-latest
-    environment: preprod
+    environment: preproduccion
     steps:
       - name: Deploy PRE
         run: echo app deployed en PRE
@@ -78,7 +79,7 @@ jobs:
     if: ${{ github.ref == 'refs/heads/master' }}
     needs: deploypre
     runs-on: ubuntu-latest
-    environment: prd
+    environment: produccion
     steps:
       - name: Deploy PRO
         run: echo app deployed en PRO
