@@ -56,7 +56,7 @@ jobs:
           testFormat: "junit"
           testPaths: "**/surefire-reports/*.xml"
           projectKey: "JON"
-          testPlanKey: "JON-2774"
+          testExecKey: "JON-2780"
 
   deploydev:
     needs: build
