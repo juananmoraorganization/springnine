@@ -54,6 +54,8 @@ jobs:
           username: ${{ secrets.client_id }}
           password: ${{ secrets.client_secret }}
           testFormat: "junit"
+          testPaths: "**/surefire-reports/*.xml"
+          projectKey: "JON"
 
   deploydev:
     needs: build
@@ -81,6 +83,5 @@ jobs:
       - name: Deploy PRO
         run: echo app deployed en PRO
 
-          testPaths: "**/surefire-reports/*.xml"
-          projectKey: "JON"
+
  
