@@ -49,13 +49,14 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B clean package -Denforcer.fail=false --file pom.xml
       - name: Submit results to Xray
-        uses: mikepenz/xray-action@v2.4.5
+        uses: mikepenz/xray-action@v3.0.4
         with:
           username: ${{ secrets.client_id }}
           password: ${{ secrets.client_secret }}
           testFormat: "junit"
           testPaths: "**/surefire-reports/*.xml"
           projectKey: "JON"
+          testPlanKey: "JON-2781"
 
   deploydev:
     needs: build
