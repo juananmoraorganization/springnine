@@ -1,4 +1,4 @@
-# springnine from jira - 05/03
+# springnine from jira - 05/03sss
 
 Conjunto de pruebas automáticas que realizan la validacuión e2e de la funcionalidad del servicio cttione. Prueba workflow rama sonar gate...prueba compass + JIRA
 
