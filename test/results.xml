@@ -1,0 +1,82 @@
+<testsuites id="" name="" tests="8" failures="0" skipped="0" errors="0" time="12.412538">
+<testsuite name="example.spec.ts" timestamp="2024-02-20T16:04:37.177Z" hostname="chromium" tests="2" failures="0" skipped="0" time="6.21" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="2.809">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-has-title-chromium/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/example-has-title-chromium/video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="3.401">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-get-started-link-chromium/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/example-get-started-link-chromium/video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2024-02-20T16:04:37.177Z" hostname="firefox" tests="2" failures="0" skipped="0" time="9.497" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="4.727">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-has-title-firefox/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/example-has-title-firefox/video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="4.77">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-get-started-link-firefox/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/example-get-started-link-firefox/video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2024-02-20T16:04:37.177Z" hostname="webkit" tests="2" failures="0" skipped="0" time="10.244" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="4.091">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-has-title-webkit/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/example-has-title-webkit/video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="6.153">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-get-started-link-webkit/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/example-get-started-link-webkit/video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2024-02-20T16:04:37.177Z" hostname="Mobile Safari" tests="2" failures="0" skipped="0" time="10.368" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="5.075">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-has-title-Mobile-Safari/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/example-has-title-Mobile-Safari/video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="5.293">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/example-get-started-link-Mobile-Safari/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/example-get-started-link-Mobile-Safari/video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
