@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-27T07:34:33 UTC" name="Suite" finished-at="2025-02-27T07:34:50 UTC" duration-ms="17362">
+    <groups>
+    </groups>
+    <test started-at="2025-02-27T07:34:33 UTC" name="ChromeTests_2" finished-at="2025-02-27T07:34:41 UTC" duration-ms="7632">
+      <class name="SecondTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:SecondTest@5a4aa2f2]" started-at="2025-02-27T07:34:33 UTC" name="setup" finished-at="2025-02-27T07:34:35 UTC" duration-ms="1893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:SecondTest@5a4aa2f2]" started-at="2025-02-27T07:34:33 UTC" name="setup" finished-at="2025-02-27T07:34:37 UTC" duration-ms="4354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GOOGLE4()[pri:0, instance:SecondTest@5a4aa2f2]" started-at="2025-02-27T07:34:35 UTC" name="GOOGLE4" finished-at="2025-02-27T07:34:37 UTC" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GOOGLE4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SecondTest@5a4aa2f2]" started-at="2025-02-27T07:34:37 UTC" name="tearDown" finished-at="2025-02-27T07:34:37 UTC" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="YANDEX()[pri:0, instance:SecondTest@5a4aa2f2]" started-at="2025-02-27T07:34:37 UTC" name="YANDEX" finished-at="2025-02-27T07:34:40 UTC" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YANDEX -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SecondTest@5a4aa2f2]" started-at="2025-02-27T07:34:40 UTC" name="tearDown" finished-at="2025-02-27T07:34:41 UTC" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:SecondTest@5a4aa2f2]" started-at="2025-02-27T07:34:41 UTC" name="terminate" finished-at="2025-02-27T07:34:41 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- SecondTest -->
+    </test> <!-- ChromeTests_2 -->
+    <test started-at="2025-02-27T07:34:33 UTC" name="FirefoxTests_2" finished-at="2025-02-27T07:34:50 UTC" duration-ms="16588">
+      <class name="SecondTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:SecondTest@b7f23d9]" started-at="2025-02-27T07:34:33 UTC" name="setup" finished-at="2025-02-27T07:34:45 UTC" duration-ms="12231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:SecondTest@b7f23d9]" started-at="2025-02-27T07:34:33 UTC" name="setup" finished-at="2025-02-27T07:34:45 UTC" duration-ms="12328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="YANDEX()[pri:0, instance:SecondTest@b7f23d9]" started-at="2025-02-27T07:34:45 UTC" name="YANDEX" finished-at="2025-02-27T07:34:48 UTC" duration-ms="3059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YANDEX -->
+        <test-method signature="GOOGLE4()[pri:0, instance:SecondTest@b7f23d9]" started-at="2025-02-27T07:34:45 UTC" name="GOOGLE4" finished-at="2025-02-27T07:34:47 UTC" duration-ms="1880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GOOGLE4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SecondTest@b7f23d9]" started-at="2025-02-27T07:34:47 UTC" name="tearDown" finished-at="2025-02-27T07:34:48 UTC" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SecondTest@b7f23d9]" started-at="2025-02-27T07:34:48 UTC" name="tearDown" finished-at="2025-02-27T07:34:50 UTC" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:SecondTest@b7f23d9]" started-at="2025-02-27T07:34:50 UTC" name="terminate" finished-at="2025-02-27T07:34:50 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- SecondTest -->
+    </test> <!-- FirefoxTests_2 -->
+    <test started-at="2025-02-27T07:34:33 UTC" name="FirefoxTests" finished-at="2025-02-27T07:34:50 UTC" duration-ms="17362">
+      <class name="SecondTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:SecondTest@709ba3fb]" started-at="2025-02-27T07:34:33 UTC" name="setup" finished-at="2025-02-27T07:34:37 UTC" duration-ms="3906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[133.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:SecondTest@709ba3fb]" started-at="2025-02-27T07:34:33 UTC" name="setup" finished-at="2025-02-27T07:34:45 UTC" duration-ms="12324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[133.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GOOGLE4()[pri:0, instance:SecondTest@709ba3fb]" started-at="2025-02-27T07:34:37 UTC" name="GOOGLE4" finished-at="2025-02-27T07:34:39 UTC" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GOOGLE4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SecondTest@709ba3fb]" started-at="2025-02-27T07:34:39 UTC" name="tearDown" finished-at="2025-02-27T07:34:40 UTC" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="YANDEX()[pri:0, instance:SecondTest@709ba3fb]" started-at="2025-02-27T07:34:45 UTC" name="YANDEX" finished-at="2025-02-27T07:34:49 UTC" duration-ms="3768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YANDEX -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SecondTest@709ba3fb]" started-at="2025-02-27T07:34:49 UTC" name="tearDown" finished-at="2025-02-27T07:34:50 UTC" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:SecondTest@709ba3fb]" started-at="2025-02-27T07:34:50 UTC" name="terminate" finished-at="2025-02-27T07:34:50 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- SecondTest -->
+    </test> <!-- FirefoxTests -->
+  </suite> <!-- Suite -->
+</testng-results>
