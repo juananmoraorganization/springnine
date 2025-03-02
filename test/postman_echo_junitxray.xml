@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="133" tests="5">
+  <testsuite id="46a80538-29a1-47d8-b3d9-66c2b48b765d" name="" tests="1" timestamp="2024-09-11T06:32:02.724" time="1.432" failures="0" errors="0">
+    <testcase classname="133" name="petclinic_list_veterinarians" time="1.432"/>
+  </testsuite>
+  <testsuite id="ebc874cb-2a16-4edd-9e89-d3e9271d8102" name="" tests="1" timestamp="2024-09-11T06:32:02.724" time="0.273" failures="0" errors="0">
+    <testcase classname="133" name="petclinic_ownerinfo" time="0.273"/>
+  </testsuite>
+  <testsuite id="29bbe264-0a96-4835-a22b-98367ae08671" name="" tests="1" timestamp="2024-09-11T06:32:02.724" time="0.166" failures="1" errors="0">
+    <testcase classname="133" name="petclinic_list_owners" time="0.166">
+      <failure type="AssertionFailure" message="expected '555-1234' to match /^\d{3}\d{3}\d{4}$/">
+        <![CDATA[Collection name: 133.]]>
+        <![CDATA[Test description: Telephone number is in a valid format.]]>
+        <![CDATA[Error message: expected '555-1234' to match /^\d{3}\d{3}\d{4}$/.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '555-1234' to match /^\d{3}\d{3}\d{4}$/
+   at Object.eval sandbox-script.js:4:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite id="fb4d6813-8e0a-447d-ac18-cf2b7931335a" name="" tests="1" timestamp="2024-09-11T06:32:02.724" time="0.097" failures="0" errors="0">
+    <testcase classname="133" name="petclinic_list_specialties" time="0.097"/>
+  </testsuite>
+  <testsuite id="6ceaa335-da3e-4b79-980d-49825ec73331" name="" tests="1" timestamp="2024-09-11T06:32:02.724" time="0.291" failures="1" errors="0">
+    <testcase classname="133" name="petclinic_update_pettype" time="0.291">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 204">
+        <![CDATA[Collection name: 133.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 204.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 204
+   at Object.eval sandbox-script.js:1:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
