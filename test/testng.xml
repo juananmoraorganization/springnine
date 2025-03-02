@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-12T10:19:11 UTC" name="template" finished-at="2025-02-12T10:19:19 UTC" duration-ms="8601">
+    <groups>
+    </groups>
+    <test started-at="2025-02-12T10:19:11 UTC" name="QualityGenCatTest.Chrome" finished-at="2025-02-12T10:19:18 UTC" duration-ms="7227">
+      <class name="QualityGenCatTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@5f0fd5a0]" started-at="2025-02-12T10:19:11 UTC" name="testInit" finished-at="2025-02-12T10:19:13 UTC" duration-ms="2779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="qualityGenCatTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@5f0fd5a0]" started-at="2025-02-12T10:19:13 UTC" name="qualityGenCatTest" finished-at="2025-02-12T10:19:16 UTC" duration-ms="2893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-769]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-768]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- qualityGenCatTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:QualityGenCatTest@5f0fd5a0]" started-at="2025-02-12T10:19:16 UTC" name="testQuit" finished-at="2025-02-12T10:19:16 UTC" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:QualityGenCatTest@5f0fd5a0]" started-at="2025-02-12T10:19:16 UTC" name="testShutdown" finished-at="2025-02-12T10:19:18 UTC" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- QualityGenCatTest -->
+    </test> <!-- QualityGenCatTest.Chrome -->
+    <test started-at="2025-02-12T10:19:11 UTC" name="QualityGenCatTest.Edge" finished-at="2025-02-12T10:19:19 UTC" duration-ms="7949">
+      <class name="QualityGenCatTest">
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@a37aefe]" started-at="2025-02-12T10:19:11 UTC" name="testInit" finished-at="2025-02-12T10:19:14 UTC" duration-ms="3299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="qualityGenCatTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@a37aefe]" started-at="2025-02-12T10:19:14 UTC" name="qualityGenCatTest" finished-at="2025-02-12T10:19:17 UTC" duration-ms="2836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-769]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-768]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- qualityGenCatTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:QualityGenCatTest@a37aefe]" started-at="2025-02-12T10:19:17 UTC" name="testQuit" finished-at="2025-02-12T10:19:18 UTC" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:QualityGenCatTest@a37aefe]" started-at="2025-02-12T10:19:18 UTC" name="testShutdown" finished-at="2025-02-12T10:19:19 UTC" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+      </class> <!-- QualityGenCatTest -->
+    </test> <!-- QualityGenCatTest.Edge -->
+    <test started-at="2025-02-12T10:19:11 UTC" name="QualityGenCatTest.Firefox" finished-at="2025-02-12T10:19:19 UTC" duration-ms="8593">
+      <class name="QualityGenCatTest">
+        <test-method is-config="true" signature="suiteInit()[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-02-12T10:19:10 UTC" name="suiteInit" finished-at="2025-02-12T10:19:11 UTC" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteInit -->
+        <test-method is-config="true" signature="testInit(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-02-12T10:19:11 UTC" name="testInit" finished-at="2025-02-12T10:19:15 UTC" duration-ms="4505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="qualityGenCatTest(java.lang.String,java.lang.reflect.Method)[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-02-12T10:19:15 UTC" name="qualityGenCatTest" finished-at="2025-02-12T10:19:18 UTC" duration-ms="2889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void QualityGenCatTest.qualityGenCatTest(java.lang.String,java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="summary">
+              <![CDATA[]]>
+            </attribute> <!-- summary -->
+            <attribute name="test">
+              <![CDATA[DEVSECOPS2-769]]>
+            </attribute> <!-- test -->
+            <attribute name="description">
+              <![CDATA[]]>
+            </attribute> <!-- description -->
+            <attribute name="requirement">
+              <![CDATA[DEVSECOPS2-768]]>
+            </attribute> <!-- requirement -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- qualityGenCatTest -->
+        <test-method is-config="true" signature="testQuit()[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-02-12T10:19:18 UTC" name="testQuit" finished-at="2025-02-12T10:19:19 UTC" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuit -->
+        <test-method is-config="true" signature="testShutdown()[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-02-12T10:19:19 UTC" name="testShutdown" finished-at="2025-02-12T10:19:19 UTC" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShutdown -->
+        <test-method is-config="true" signature="suiteShutdown()[pri:0, instance:QualityGenCatTest@24c4ddae]" started-at="2025-02-12T10:19:19 UTC" name="suiteShutdown" finished-at="2025-02-12T10:19:19 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteShutdown -->
+      </class> <!-- QualityGenCatTest -->
+    </test> <!-- QualityGenCatTest.Firefox -->
+  </suite> <!-- template -->
+</testng-results>
