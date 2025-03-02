@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" hostname="http://api.petclinic.ctti-eks.aws" package="" name="petclinic_list_veterinarians" tests="4" failures="0" errors="0" timestamp="2024-06-11T05:28:06.454" time="0.181">
+    <properties>
+      <property name="basePath" value="petclinic"/>
+      <property name="host" value="api.petclinic.ctti-eks.aws"/>
+      <property name="protocol" value="http"/>
+      <property name="vetfirstName" value="Eduardo"/>
+    </properties>
+    <testcase classname=" / petclinic_list_veterinarians" name="Response status code is 200" time="0.045"/>
+    <testcase classname=" / petclinic_list_veterinarians" name="First name and last name are non-empty strings" time="0.045"/>
+    <testcase classname=" / petclinic_list_veterinarians" name="Verify the presence and length of the specialties array" time="0.045"/>
+    <testcase classname=" / petclinic_list_veterinarians" name="The 'id' should be a non-negative integer" time="0.045"/>
+  </testsuite>
+  <testsuite id="1" hostname="http://api.petclinic.ctti-eks.aws" package="" name="petclinic_ownerinfo" tests="4" failures="0" errors="0" timestamp="2024-06-11T05:28:06.635" time="0.070">
+    <properties>
+      <property name="basePath" value="petclinic"/>
+      <property name="host" value="api.petclinic.ctti-eks.aws"/>
+      <property name="protocol" value="http"/>
+      <property name="vetfirstName" value="Eduardo"/>
+    </properties>
+    <testcase classname=" / petclinic_ownerinfo" name="Response status code is 200" time="0.018"/>
+    <testcase classname=" / petclinic_ownerinfo" name="First name is a non-empty string" time="0.018"/>
+    <testcase classname=" / petclinic_ownerinfo" name="Last name is a non-empty string" time="0.018"/>
+    <testcase classname=" / petclinic_ownerinfo" name="Telephone number is in a valid format" time="0.018"/>
+  </testsuite>
+  <testsuite id="2" hostname="http://api.petclinic.ctti-eks.aws" package="" name="petclinic_list_owners" tests="4" failures="0" errors="0" timestamp="2024-06-11T05:28:06.705" time="0.151">
+    <properties>
+      <property name="basePath" value="petclinic"/>
+      <property name="host" value="api.petclinic.ctti-eks.aws"/>
+      <property name="protocol" value="http"/>
+      <property name="vetfirstName" value="Eduardo"/>
+    </properties>
+    <testcase classname=" / petclinic_list_owners" name="Response status code is 200" time="0.038"/>
+    <testcase classname=" / petclinic_list_owners" name="First name is a non-empty string" time="0.038"/>
+    <testcase classname=" / petclinic_list_owners" name="Last name is a non-empty string" time="0.038"/>
+    <testcase classname=" / petclinic_list_owners" name="Telephone number is in a valid format" time="0.038">
+      <failure type="AssertionError" message="expected '555-1234' to match /^\d{3}\d{3}\d{4}$/">
+        <![CDATA[AssertionError: expected '555-1234' to match /^\d{3}\d{3}\d{4}$/
+   at Object.eval sandbox-script.js:4:3)]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
