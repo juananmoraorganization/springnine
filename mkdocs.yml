@@ -1,8 +1,9 @@
 site_name: "springnine"
-site_description: "Conjunto de pruebas automáticas que realizan la validacuión e2e de la funcionalidad del servicio cttione"
+site_description: "A Spring Boot application with gRPC support providing automated end-to-end testing capabilities"
 
 nav:
   - Introduction: index.md
+  - API Documentation: api.md
 
 plugins:
   - techdocs-core
